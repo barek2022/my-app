@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.40f75fcc.css",
+    "main.js": "/static/js/main.7e55f4b3.js",
+    "static/media/blazek.jpg": "/static/media/blazek.d7fc1e246f39ce3c0d57.jpg",
+    "static/media/barek.jpg": "/static/media/barek.a5c34736cc766e0d3737.jpg",
+    "static/media/BR.jpg": "/static/media/BR.ad7f4e81deeeb581dbab.jpg",
+    "static/media/contact1.png": "/static/media/contact1.8ddfbfd11798f881db54.png",
+    "index.html": "/index.html",
+    "main.40f75fcc.css.map": "/static/css/main.40f75fcc.css.map",
+    "main.7e55f4b3.js.map": "/static/js/main.7e55f4b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40f75fcc.css",
+    "static/js/main.7e55f4b3.js"
+  ]
+}
