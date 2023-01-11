@@ -1,0 +1,94 @@
+.blog-home {
+  margin-top: 60px;
+  position: relative;
+}
+.blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work-h {
+  text-align: center;
+}
+.work h2 {
+  font-size: 46px;
+  font-weight: bold;
+  color: #ff014f;
+}
+.blazek {
+  width: 990px;
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+/*  ======================================
+    ======================================
+*/
+
+/* ========================= */
+@media (max-width: 768px) {
+  .im-work {
+    width: 340px;
+  }
+  .mask::after {
+    content: "";
+    width: 290px;
+    height: 194px;
+    position: absolute;
+    top: 18px;
+    left: 50px;
+    background-color: #000;
+    opacity: 0.8;
+  }
+  .one-work {
+    position: absolute;
+    top: 115px;
+    left: 24%;
+    color: red;
+    font-size: 30px;
+  }
+}
+/* ======-IPAD - MIN -============ */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .im-work {
+    width: 500px;
+  }
+  .mask::after {
+    content: "";
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 18px;
+    left: 159px;
+    background-color: #000;
+    opacity: 0.8;
+  }
+  .one-work {
+    position: absolute;
+    top: 180px;
+    left: 280px;
+    color: red;
+    font-size: 34px;
+  }
+}
+/* =========-IPAD - AIR -============ */
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .im-work {
+    width: 500px;
+  }
+  .mask::after {
+    content: "";
+    width: 452px;
+    height: 300px;
+    position: absolute;
+    top: 18px;
+    left: 184px;
+    background-color: #000;
+    opacity: 0.8;
+  }
+}

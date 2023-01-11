@@ -1,0 +1,94 @@
+.content .left {
+  width: 36%;
+}
+.content .right {
+  width: 60%;
+}
+.content .box {
+  padding: 30px;
+}
+.contact1 {
+  width: 350px;
+}
+.content .details h1 {
+  margin: 20px 0 20px 0;
+  font-size: 35px;
+}
+.content .details p {
+  font-size: 17px;
+}
+.content .button {
+  margin-top: 20px;
+}
+.content button {
+  margin-right: 20px;
+}
+.content .right {
+  padding: 35px;
+}
+.content .input span {
+  font-size: 13px;
+}
+.content input {
+  margin-top: 10px;
+}
+.content .right button {
+  color: #ff014f;
+}
+.content .right button:hover {
+  color: white;
+}
+.content .right button .sol {
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .content .d_flex {
+    flex-direction: column;
+  }
+  .content .left,
+  .content .right {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .contact1 {
+    width: 250px;
+  }
+}
+
+/* =================================== */
+.box_shodow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 10px;
+}
+/* ====================== */
+@media (max-width: 768px) {
+  .contact1 {
+    width: 310px;
+  }
+}
+/* ============= - IPAD _ AIR - ============= */
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .content .left {
+    width: 100%;
+  }
+  .content .right {
+    width: 80%;
+  }
+  .contact1 {
+    width: 310px;
+  }
+}
+/* ================ */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .content .left {
+    width: 100%;
+  }
+  .content .right {
+    width: 80%;
+  }
+  .contact1 {
+    width: 290px;
+  }
+}

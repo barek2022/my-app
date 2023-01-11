@@ -1,0 +1,85 @@
+.about {
+  margin-top: 80px;
+  position: relative;
+}
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about > .box {
+  width: 1060px;
+  height: 300px;
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.about p {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 16px;
+}
+.about-h {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 46px;
+  font-weight: bold;
+  color: #ff014f;
+}
+/* ========================= */
+@media (max-width: 768px) {
+  .about > .box {
+    width: 270px;
+    height: 300px;
+  }
+  .about-h {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff014f;
+  }
+  .about h6 {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 12px;
+  }
+}
+/* ======-IPAD - MIN -============ */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .about > .box {
+    width: 470px;
+    height: 300px;
+  }
+  .about h6 {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 62px;
+  }
+}
+
+/* ===========-IMAGE - BAREK-============= */
+.about-work {
+  width: 460px;
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+@media (max-width: 768px) {
+  .about-work {
+    width: 360px;
+    padding: 18px 25px;
+    border-radius: 6px;
+  }
+}
